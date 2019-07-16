@@ -1,3 +1,5 @@
+<a name="top"></a>
+
 # Documentación básica de uso de Git
 
 Este sección tratará sobre cómo empezar con **Git**. Partiremos explicando cómo configurarlo para empezar a trabajar con él. Al final de este capítulo deberías entender por qué existe Git, por qué usarlo, y tendrías que tener todo preparado para comenzar con los aspectos básicos. Para obtener información de los **Fundamentos de Git** y algunos conceptos relativos a las herramientas de control de versiones puedes dar click [aquí.](s)
@@ -136,7 +138,7 @@ Listar las etiquetas disponibles en Git es sencillo, Simplemente escribe  `git t
 	Crear una etiqueta anotada en Git es simple. La forma más fácil es especificar  `-a`  al ejecutar el comando  `tag`:
 
 	```
-        $ git tag -a v1.4 -m 'my version 1.4'
+        $ git tag -a v1.4 -m 'descripción de mi versión 1.4'
         $ git tag
         v0.1
         v1.3
@@ -150,3 +152,5 @@ Listar las etiquetas disponibles en Git es sencillo, Simplemente escribe  `git t
 	Necesitas crear una rama local que rastree una rama remota. El siguiente comando creará una rama local llamada **desarrollo** , rastreando el **origin** rama remota **/ desarrollo** . Cuando presione sus cambios, la rama remota se actualizará.
 	```
 	git checkout --track origin/desarrollo
+
+    [Subir](#top)
