@@ -41,7 +41,7 @@ Git trae una herramienta llamada `git config` que te permite obtener y establece
 
  - ### Configuración de usuario:
 	Lo primero que deberías hacer cuando instalas Git es establecer tu nombre de usuario y dirección de correo electrónico. Esto es importante porque las confirmaciones de cambios (commits) en Git usan esta información, y es introducida de manera inmutable en los commits que envías:
-	
+
 	```
 		$ git config --global user.name "<nombre cmpleto>"
 		$ git config --global user.email <correo electronico>
@@ -63,7 +63,7 @@ Esto crea un nuevo subdirectorio llamado .git que contiene todos los archivos ne
 Si deseas obtener una copia de un repositorio Git existente —por ejemplo, un proyecto en el que te gustaría contribuir— el comando que necesitas es  `git clone`.
 Puedes clonar un repositorio con  `git clone [url]`. Por ejemplo, si quieres clonar este repositorio, harías algo así:
 ```
-    $ git clone http://172.31.1.114:3000/DOCS/Documentacion.git
+    $ git clone http://172.31.1.114:3000/RECURSOS/docs_ci_cd.git
 ```
 Git te permite usar distintos protocolos de transferencia. El ejemplo anterior usa el protocolo `http://`, pero también te puedes encontrar con `ssh://` o `<usuario>@<servidor>:<ruta.git>`, que utiliza el protocolo de transferencia SSH.
 
@@ -126,7 +126,7 @@ Los repositorios remotos son versiones de tu proyecto que se encuentran alojados
 	Ya he mencionado y he dado ejemplos de repositorios remotos en secciones anteriores, pero a continuación veremos cómo añadirlos explícitamente. Para añadir un nuevo repositorio Git remoto, asignándole un nombre con el que referenciarlo fácilmente, ejecuta  `git remote add [nombre] [url]`:
 
 	```
-	    $ git remote add origin http://172.31.1.114:3000/DOCS/Documentacion.git
+	    $ git remote add origin http://172.31.1.114:3000/RECURSOS/docs_ci_cd.git
 	```
 
 <a name="pull"></a>
