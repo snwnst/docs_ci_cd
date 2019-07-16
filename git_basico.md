@@ -189,6 +189,7 @@ Listar las etiquetas disponibles en Git es sencillo, Simplemente escribe  `git t
 - ### Recibiendo rama de tus repositorios remotos:
 	Necesitas crear una rama local que rastree una rama remota. El siguiente comando creará una rama local llamada **desarrollo** , rastreando el **origin** rama remota **/ desarrollo** . Cuando presione sus cambios, la rama remota se actualizará.
 	```
-	git checkout --track origin/desarrollo
+		git checkout --track origin/desarrollo
+	```
 
     [Subir](#top)
