@@ -45,7 +45,7 @@ Git trae una herramienta llamada `git config` que te permite obtener y establece
         $ git config --global user.name "<nombre cmpleto>"
         $ git config --global user.email <correo electronico>
 	```
-Si quieres comprobar tu configuración, puedes usar el comando `git config --list` para listar todas las propiedades que Git ha configurado.
+    Si quieres comprobar tu configuración, puedes usar el comando `git config --list` para listar todas las propiedades que Git ha configurado.
 
 <a name="init"></a>
 
