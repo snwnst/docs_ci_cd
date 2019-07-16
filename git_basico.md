@@ -41,9 +41,10 @@ Git trae una herramienta llamada `git config` que te permite obtener y establece
 
  - ### Configuración de usuario:
 	Lo primero que deberías hacer cuando instalas Git es establecer tu nombre de usuario y dirección de correo electrónico. Esto es importante porque las confirmaciones de cambios (commits) en Git usan esta información, y es introducida de manera inmutable en los commits que envías:
+	
 	```
-        $ git config --global user.name "<nombre cmpleto>"
-        $ git config --global user.email <correo electronico>
+		$ git config --global user.name "<nombre cmpleto>"
+		$ git config --global user.email <correo electronico>
 	```
     Si quieres comprobar tu configuración, puedes usar el comando `git config --list` para listar todas las propiedades que Git ha configurado.
 
