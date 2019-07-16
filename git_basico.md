@@ -5,7 +5,7 @@
 Este sección tratará sobre cómo empezar con **Git**. Partiremos explicando cómo configurarlo para empezar a trabajar con él. Al final de este capítulo deberías entender por qué existe Git, por qué usarlo, y tendrías que tener todo preparado para comenzar con los aspectos básicos. Para obtener información de los **Fundamentos de Git** y algunos conceptos relativos a las herramientas de control de versiones puedes dar click [aquí.](https://git-scm.com/book/es/v1/Empezando)
 
 ## Contenido:
- - [Instalación de Git](#instalación)
+ - [Instalación de Git](#instalacion)
  - [Configurando Git por primera vez](#create)
 	 - [Configuración de usuario](#user)
  - [Inicializando un repositorio en un directorio existente](#init)
@@ -23,7 +23,7 @@ Este sección tratará sobre cómo empezar con **Git**. Partiremos explicando c�
 - [Ramificaciones en Git](#branch)
 	- [Recibiendo rama de tus repositorios remotos](#track)
 
-<a name="instalación"></a>
+<a name="instalacion"></a>
 
 ## Instalación de Git
 Para descargar la versión más reciente de Git desde su página web:
